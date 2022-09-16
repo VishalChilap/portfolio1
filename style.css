@@ -1,0 +1,201 @@
+.navbar .nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav li{
+    padding: 10px 25px;
+}
+
+.nav li a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+}
+
+.navbar{
+    position: fixed;
+    top: 0%;
+    background-color: white;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+body{
+    margin: 0%;
+}
+
+.banner .image img{
+    width: 100%;
+    padding-left: 50px;
+}
+
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    background-color: #dcdfb7;
+}
+
+.container{
+    width: 100%;
+    margin: 4% 0%;
+    padding: 4% 0%;
+}
+
+.banner .content{
+    padding: 0% 6%;
+}
+
+.banner .content .title{
+    font-size: 50px;
+}
+
+.banner .content .desc{
+    font-size: 28px;
+}
+
+.banner .title span{
+    font-weight: 900;
+}
+
+.banner .content .btn{
+    background-color: #6b8363;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 2% 5%;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Mulish', sans-serif;
+    cursor: pointer;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.about .content{
+    padding-left: 100px;
+}
+
+.about .content .head {
+    font-size: 25px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+}
+
+.about .content .para{
+    font-size: 17px;
+    font-weight: 200;
+}
+
+.about .image img{
+    height: 300px;
+    padding-left: 100px;
+}
+
+
+.skill .content{
+    padding: 2% 10%;
+    background-color: #dcdfb7;
+}
+
+.skill .content .title{
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    gap: 10px 20px;
+}
+
+.grid-container .grid-item{
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 7% 6%;
+    border-radius: 8px;
+    border-bottom: 5px solid #6b8363;
+}
+
+.grid-item .fa-brands{
+    margin-left: 8%;
+    font-size: 25px;
+    color: #6b8363;
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.contact .image img{
+    width: 80%;
+    padding-left: 50px;
+}
+
+.contact .content .title{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.form .field{
+    padding: 2% 0%;
+}
+
+.form .field .lable{
+    font-size: 16px;
+}
+
+.form .field .input{
+    font-size: 16px;
+    font-family: 'Mulish';
+    width: 55%;
+    padding: 2% 1%;
+    margin-top: 2%;
+    border-radius: 8px;
+    border: 1px solid #6b8363;
+}
+
+.contact .form .btn{
+    background-color: #6b8363;
+    border: none;
+    border-radius: 20px;
+    padding: 2% 4%;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.footer{
+    background-color: #6b8363;
+    text-align: center;
+}
+
+
+.footer .name{
+    padding: 20px 0px;
+}
+
+.footer .logo{
+    padding-bottom: 20px;
+}
+
+.footer .logo i{
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+.name p{
+    font-size: 20px;
+    color: white;
+}
+
+.skill i{
+    padding-left: 20px;
+}
